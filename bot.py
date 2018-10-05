@@ -348,6 +348,6 @@ while True:
         print('P8 stop')
 
     cycle += 1
-    print('Конец цикла')
+    print('Конец цыкла')
     logg_start()
     time.sleep(3)
