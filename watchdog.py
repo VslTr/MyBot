@@ -8,7 +8,7 @@ while True:
     last_line = None
     time_now = datetime.datetime.now ()
 
-    for line in open("config.log", "r"):
+    for line in open("time.log", "r"):
         last_line = line
 		
     print ('')
@@ -28,8 +28,7 @@ while True:
 		
         os.system ("taskkill /f /im  bot.exe")
         print('--- ПРОЦЕСС ОСТАНОВЛЕН ---')
-        #os.system(r'C:/Users/trogwar/Desktop/dist_0.1.3.2/bot.exe')
-        #print('ПРОЦЕСС ЗАПУЩЕН')
+
     else:
         print('--- ПРОЦЕСС АКТИВЕН ---')
     time.sleep (30)
